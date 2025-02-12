@@ -14,8 +14,9 @@ public class day3 {
 		System.out.println("Before class only");
 	}
 
-	@Test(groups= {"SMOKS"})
+	@Test(groups= {"SMOKE"})
 	public void webloginHomeLoan() {
+		System.out.println("Running for devops");
 		System.out.println("webloginHomeLoan");
 	}
 	
