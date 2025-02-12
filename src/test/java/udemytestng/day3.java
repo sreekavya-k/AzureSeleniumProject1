@@ -14,18 +14,18 @@ public class day3 {
 		System.out.println("Before class only");
 	}
 
-	@Test(groups= {"SMOKE"})
+	@Test(groups= {"SMOKS"})
 	public void webloginHomeLoan() {
 		System.out.println("webloginHomeLoan");
 	}
 	
-	@Parameters({"URL"})
+	@Parameters({"UR"})
 	@Test
 	public void mobileLoginHomeLoan(String url) {
 		System.out.println("mobileLoginHomeLoan "+url);
 	}
 	
-	@Test(dataProvider = "getData")
+	@Test(dataProvider = "getDat")
 	public void mobileSignInHomeLoan(String username,String password) {
 		System.out.println("mobileSignInHomeLoan");
 		System.out.println("Username is "+username);
