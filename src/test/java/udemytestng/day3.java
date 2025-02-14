@@ -20,13 +20,13 @@ public class day3 {
 		System.out.println("webloginHomeLoan");
 	}
 	
-	@Parameters({"UR"})
+	@Parameters({"URL"})
 	@Test
 	public void mobileLoginHomeLoan(String url) {
 		System.out.println("mobileLoginHomeLoan "+url);
 	}
 	
-	@Test(dataProvider = "getDat")
+	@Test(dataProvider = "getData")
 	public void mobileSignInHomeLoan(String username,String password) {
 		System.out.println("mobileSignInHomeLoan");
 		System.out.println("Username is "+username);
